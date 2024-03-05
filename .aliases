@@ -1,0 +1,45 @@
+## PATH 
+alias cdws="cd ~/WorkSpace"
+alias cdcl="cd ~/CodeLabs"
+alias root="cd /"
+alias usr="cd ~"
+
+## Python
+alias python="python3"
+alias pip="pip3"
+
+## Command
+alias cl="clear"
+alias rs="reset"
+alias nf="neofetch"
+
+## NodeJs Script Start
+### YARN
+alias ys="y start"
+alias yd="y dev"
+alias yt="y test"
+alias ytd="y test:dev"
+
+### NPM 
+alias n="npm"
+alias nr="npm run"
+alias ns="npm run start"
+alias nd="npm run dev"
+alias nt="npm run test"
+alias ntd="npm run test:dev"
+
+### PNPM
+alias pns="pnpm run start"
+alias pnd="pnpm run dev"
+alias pnt="pnpm run test"
+alias pntd="pnpm run test:dev"
+alias pn="pnpm"
+alias pnr="pnpm run"
+alias nvmu="nvm use"
+## NodeJS Script End 
+
+## Run Switch DefaultBrowser Script 
+### To Avoid Warn Confirmation Switching
+alias edgemac='osascript /Users/sky0/custom_script/setDefaultBrowser.scpt edgemac'
+alias chrome='osascript /Users/sky0/custom_script/setDefaultBrowser.scpt chrome'
+
