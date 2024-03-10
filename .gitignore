@@ -1,16 +1,18 @@
-# ignore all
+# ignore everything
 *
 
-# unignore items
+# whitelist anything that's a directory
+!*./.config
+!*./.vim
+!*./.script
+
+# whitelist files
 !.gitignore
 !.zshrc
-!.script/*
 !.aliases
 !.bashrc
 !.bash_profile
 !.bash_func
 !.gitconfig
 !.vimrc
-!.vim/*
-!.config/*
 !.profile
