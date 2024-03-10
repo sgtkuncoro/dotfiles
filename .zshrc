@@ -131,9 +131,9 @@ source $HOME/.aliases
 #
 source $HOME/.env
 
-# custom script 
+# custom bash function
 #
-source $HOME/.custom_script
+source $HOME/.bash_func
 
 # pnpm
 #

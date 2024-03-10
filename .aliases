@@ -19,6 +19,7 @@ alias ys="y start"
 alias yd="y dev"
 alias yt="y test"
 alias ytd="y test:dev"
+alias yw="y workspace"
 
 ### NPM 
 alias n="npm"
@@ -40,6 +41,6 @@ alias nvmu="nvm use"
 
 ## Run Switch DefaultBrowser Script 
 ### To Avoid Warn Confirmation Switching
-alias edgemac='osascript /Users/sky0/custom_script/setDefaultBrowser.scpt edgemac'
-alias chrome='osascript /Users/sky0/custom_script/setDefaultBrowser.scpt chrome'
+alias edgemac='osascript /Users/sky0/.script/setdefaultbrowser.scpt edgemac'
+alias chrome='osascript /Users/sky0/.script/setdefaultbrowser.scpt chrome'
 
