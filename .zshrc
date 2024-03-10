@@ -127,9 +127,9 @@ source $HOME/.aliases
 #
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# global env
+# globals env
 #
-source $HOME/.env
+source $HOME/.env.globals
 
 # custom bash function
 #
