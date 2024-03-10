@@ -2,9 +2,9 @@
 *
 
 # whitelist anything that's a directory
-!*./.config
-!*./.vim
-!*./.script
+!.config/nvim/
+!.vim/
+!.script/
 
 # whitelist files
 !.gitignore
