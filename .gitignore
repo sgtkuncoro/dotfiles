@@ -1,0 +1,16 @@
+# ignore all
+*
+
+# unignore items
+!.gitignore
+!.zshrc
+!.script/*
+!.aliases
+!.bashrc
+!.bash_profile
+!.bash_func
+!.gitconfig
+!.vimrc
+!.vim/*
+!.config/*
+!.profile
