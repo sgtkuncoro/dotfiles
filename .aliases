@@ -1,8 +1,6 @@
-## PATH 
-alias cdws="cd ~/WorkSpace"
-alias cdcl="cd ~/CodeLabs"
-alias root="cd /"
-alias usr="cd ~"
+# NVIM
+alias vim=nvim
+alias vi=nvim
 
 ## Python
 alias python="python3"
@@ -19,6 +17,7 @@ alias ys="y start"
 alias yd="y dev"
 alias yt="y test"
 alias ytd="y test:dev"
+alias ytw="y test:watch"
 alias yw="y workspace"
 
 ### NPM 
@@ -28,19 +27,27 @@ alias ns="npm run start"
 alias nd="npm run dev"
 alias nt="npm run test"
 alias ntd="npm run test:dev"
+alias ntw="npm run test:watch"
 
 ### PNPM
 alias pns="pnpm run start"
 alias pnd="pnpm run dev"
 alias pnt="pnpm run test"
 alias pntd="pnpm run test:dev"
+alias pntd="pnpm run test:watch"
 alias pn="pnpm"
 alias pnr="pnpm run"
 alias nvmu="nvm use"
+
 ## NodeJS Script End 
 
-## Run Switch DefaultBrowser Script 
-### To Avoid Warn Confirmation Switching
-alias edgemac='osascript /Users/sky0/.script/setdefaultbrowser.scpt edgemac'
-alias chrome='osascript /Users/sky0/.script/setdefaultbrowser.scpt chrome'
+## Switch DefaultBrowser 
+### To avoid warn dialog confirmation switching
+alias edgemac='osascript /Users/$USER/.script/setdefaultbrowser.scpt edgemac'
+alias chrome='osascript /Users/$USER/.script/setdefaultbrowser.scpt chrome'
 
+
+
+## Access SSH
+## Eliot Project
+alias ssh_frostyblissbot='ssh -i "/Users/$USER/.keypairs/frostyblissbot-keypair.pem" ec2-user@ec2-18-142-106-44.ap-southeast-1.compute.amazonaws.com'
