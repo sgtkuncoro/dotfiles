@@ -4,8 +4,8 @@
 
 # Multiple .gitconfig
 # Git Exclude PATH
-#[includeIf "gitdir:~/<YOUR_OTHER_CONFIG_PATH>"]
-#	path = "~/<YOUR_OTHER_CONFIG_PATH>/.gitconfig"
+[includeIf "gitdir:~/other_git_path"]
+	path = "~/other_git_path/.gitconfig"
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
