@@ -10,10 +10,13 @@
 # whitelist files
 !.gitignore
 !.zshrc
-!.aliases
+!.zprofile
+!.profile
 !.bashrc
-!.bash_profile
-!.bash_func
 !.gitconfig
 !.vimrc
-!.profile
+!.loadaliases
+!.loadcfunction
+!.loadenv
+!.autoload
+
