@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Auto Load .envmrc
+# Auto Load .nvmrc
 # [NOTE] place this after nvm initialization!
 # START
 autoload -U add-zsh-hook
