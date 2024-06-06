@@ -2,9 +2,10 @@
 	name = Sigit Kuncoro
 	email = sigit.kunc@gmail.com
 
-# Git LinkAja
-[includeIf "gitdir:~/WorkSpace/linkaja/"]
-	path = "~/WorkSpace/linkaja/.gitconfig"
+# Multiple .gitconfig
+# Git Exclude PATH
+#[includeIf "gitdir:~/<YOUR_OTHER_CONFIG_PATH>"]
+#	path = "~/<YOUR_OTHER_CONFIG_PATH>/.gitconfig"
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
@@ -12,14 +13,8 @@
 	process = git-lfs filter-process
 	required = true
 [core]
-	excludesfile = /Users/kunc/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+	excludesfile = /Users/$USER/.gitignore_global
 [commit]
-	template = /Users/kunc/.stCommitMsg
+	template = /Users/$USER/.stCommitMsg
 [credential]
 	helper = cache
