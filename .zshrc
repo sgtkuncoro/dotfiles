@@ -91,9 +91,9 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# bash profile
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #
-source ~/.bash_profile
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # User configuration
 
@@ -121,11 +121,9 @@ source ~/.bash_profile
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source $HOME/.loadaliases
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# Load Aliases
 #
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source $HOME/.loadaliases
 
 # Load ENV Global
 #
