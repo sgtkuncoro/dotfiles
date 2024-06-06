@@ -1,6 +1,10 @@
 #!/bin/bash
 
+# CLI Color
 export CLICOLOR=1
+
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Default PATH
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -14,7 +18,7 @@ export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:/opt/homebrew/sbin
 
 # GO PATH
-export GOPATH=/Users/$USER/CodeLabs/GO
+export GOPATH=/Users/$USER/go
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
