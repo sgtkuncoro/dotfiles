@@ -1,11 +1,12 @@
 # ignore everything
 *
+!*/
 
 # whitelist anything that's a directory
-!.config/nvim/*
-!.vim/*
-!script/*
-!other_git_path/*
+!.config/nvim
+!.vim
+!script
+!other_git_path
 
 # whitelist files
 !.gitignore
