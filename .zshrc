@@ -121,26 +121,21 @@ source ~/.bash_profile
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source $HOME/.aliases
+source $HOME/.loadaliases
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# globals env
+# Load ENV Global
 #
-source $HOME/.env.globals
+source $HOME/.loadenv
 
-# custom bash function
+# Load Function
 #
-source $HOME/.bash_func
+source $HOME/.loadfunction
 
-# pnpm
+# Auto Load
 #
-export PNPM_HOME="/Users/sky0/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-
+source $HOME/.autoload
 
