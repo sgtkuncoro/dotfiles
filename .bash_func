@@ -1,5 +1,0 @@
-# github generate changelogs
-ggch(){
-        # (1) service, (2) current_tag, (3)previous_tag
-        github_changelog_generator --future-release --user KWRI --project "$1" "$2" --since-tag "$3" --token 3312d799774659a5a540ef635eb0ac6d1c9812ad
-}
