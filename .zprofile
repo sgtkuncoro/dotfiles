@@ -7,6 +7,8 @@ export CLICOLOR=1
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Default PATH
+# /opt/homebrew/bin should be occurs before /usr/bin
+export PATH=/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=$PATH:/usr/local/mysql/bin
 export PATH=$PATH:/usr/local/mongodb/bin
